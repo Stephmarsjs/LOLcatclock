@@ -1,0 +1,48 @@
+<!-- 
+- Make Three diffrent size headers one of the headers will be a working clock
+- 2 Picture under the clock
+- Three drop down menus that will reflect time
+- An interactive button that switches from one text to anohter upon being clicked
+- Footer : MADE BY Stephanie
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Clock</title>
+</head>
+<body>
+  <div class="page">  
+  <h1>LOLCAT CLOCK</h1>
+  <h4>WHUT TIME IZ IT??<br>
+    <span id="displayClock">Clock goes here</span>
+  </h4>
+
+  <img id="morning_kitty" 
+  src="https://cache.lovethispic.com/uploaded_images/171881-Cat-Waking-Up-From-A-Nap.jpg">
+
+  set Wake Up Time
+  <select id="morningTimeSelector">
+    <option value="5">5 AM - 6AM</option>
+    <option value="6">6 AM - 7AM</option>
+    <option value="7">7 AM - 8AM</option>
+    <option value="8">8 AM - 9AM</option>
+    <option value="9">9 AM - 10AM</option>
+    <option value="10">10 AM - 11AM</option>
+  </select>
+  <br>
+  Set Nap Time
+  <select id="napTimeSelector">
+    <option value="7">7 PM - 8PM</option>
+    <option value="8">8 PM - 9PM</option>
+    <option value="9">9 PM - 10PM</option>
+    <option value="10">10 PM - 11PM</option>
+    <option value="11">11 PM - 12AM</option>
+  <br>  
+  <button id="bedTimeButton"></button> 
+
+</div>
+<script type="text/javascript" src="app.js"></script>    
+</body>
+</html>
